@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 50%;
+}
+
+header .logo img {
+    width: 4vw;
+}
+
+.header-right {
+    width: 50%;
+    background-image: url(../img/button-bg-blue.png);
+    /* background-image: url(../img/Vector\ 4.png); */
+    
+}
+
+.header-right .sircle-line {
+    height: 46vw;
+    position: relative;
+    top: 5vw;
+}
+
+header .tansaction-hst{
+    width: 75%;
+    position: relative;
+}
