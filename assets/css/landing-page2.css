@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu .logo img:nth-child(1) {
+    width: 12%;
+    margin: 3vw 1vw -1vw 6vw;
+}
+
+header .menu .logo img:nth-child(2) {
+    width: 25%;
+}
+
+.header-right {
+    width: 54%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header-right button:nth-child(1) {
+    margin-right: 15px;
+    margin-left: 20vw;
+    background-color: #FFFFFF;
+    color: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 7px;
+    padding: 5px;
+    width: 5vw;
+    border: 2px solid #6379F4;
+}
+
+.header-right button:nth-child(2) {
+    background-color: #6379F4;
+    color: #FFFFFF;
+    box-shadow: 0px 6px 75px;
+    border: 2px solid #FFFFFF;
+    border-radius: 7px;
+    margin-top: 5vw;
+    padding: 5px;
+    width: 5vw;
+    height: 33px;
+}
+
+
+/* main {
+    margin-top: 5vw;
+} */
+
+main .transaction-history {
+    display: flex;
+    margin-left: 6vw;
+}
+
+main .transaction-history .awesome {
+    margin-left: 5vw;
+    margin-top: 6vw;
+    color: #3A3D42;
+}
+
+main .transaction-history .awesome .saving {
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+main .transaction-history .awesome h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin: 3vw auto;
+    font-size: 17px;
+}
+
+main .transaction-history .awesome .time {
+    color: #6379F4;
+}
+
+main .transaction-history .awesome button {
+    width: 11vw;
+    height: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+
+main .transaction-history .play-app-store {
+    margin-left: 5vw;
+    margin-top: 4vw;
+}
+
+main .group-sponsor {
+    background-color: rgba(71, 58, 209, 0.06);
+    margin-left: -7vw;
+}
+
+main .about {
+    padding: 2vw;
+}
+
+main .about-top {
+    color: #3A3D42;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2vw;
+}
+
+main .about-top span {
+    font-size: 60px;
+}
+
+main .about-top .about-the {
+    color: #6379F4;
+    font-family: 'Nunito Sans';
+}
+
+main .about-top h6 {
+    font-weight: normal;
+    font-family: 'Nunito Sans';
+    color: #3A3D42;
+    margin: 3vw;
+    font-size: 18px;
+}
+
+main .about-desc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+    font-family: 'Nunito Sans';
+    text-align: center;
+}
+
+main .about-desc .support,
+.about-desc .data-privacy,
+.about-desc .easy-download {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    background: #FFFFFF;
+    width: 28%;
+    height: 20vw;
+}
+
+main .about-desc span {
+    text-align: center;
+    font-weight: 700;
+}
+
+main .about-desc h6 {
+    font-weight: normal;
+    margin: 1vw auto;
+}
+
+main .about-desc .data-privacy {
+    margin: auto 3vw;
+}
+
+main .thegreat {
+    background-color: rgba(71, 58, 209, 0.06);
+    display: flex;
+    color: #3A3D42;
+    font-family: 'Nunito Sans';
+    padding-bottom: 4vw;
+}
+
+main .thegreat img {
+    margin-left: 6vw;
+}
+
+main .thegreat .great-features {
+    margin-top: 7.5vw;
+    margin-left: 4vw;
+}
+
+main .thegreat .zwallet-features {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+}
+
+main .thegreat .great {
+    color: #6379F4;
+}
+
+main .thegreat .thegreat123 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    line-height: 53px;
+    width: 50vw;
+    height: 8vw;
+    padding-left: 3vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+main .thegreat123 .gf123 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main .thegreat .no-great {
+    color: #6379F4;
+}
+
+main .thegreat123 .text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .feedback {
+    margin-top: 4vw;
+}
+
+main .feedback-top {
+    color: #3A3D42;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2vw;
+}
+
+main .feedback-users img {
+    padding: 2vw;
+}
+
+main .feedback h5 {
+    font-weight: normal;
+    font-family: 'Nunito Sans';
+    color: #3A3D42;
+    margin: 3vw;
+    font-size: 18px;
+}
+
+main .feedback .wuas {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+}
+
+main .feedback .saying {
+    color: #6379F4;
+}
+
+main .feedback .users-comments {
+    display: flex;
+    text-align: center;
+    margin-bottom: 7vw;
+}
+
+main .feedback .alex span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+main .feedback .alex {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 70px rgba(197, 197, 197, 0.15);
+    border-radius: 30px;
+    padding: 4vw 0;
+    margin: auto;
+}
+
+main .feedback .alex span {
+    margin-top: 1vw;
+    line-height: 8vw;
+}
+
+main .feedback .alex .designer {
+    margin-top: -2vw;
+}
+
+main .feedback .users-comments .arrow {
+    height: 13vw;
+    margin-top: 11vw;
+}
+
+
+footer {
+    background-color: #6379F4;
+    padding: 6vw;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    margin-bottom: 2vw;
+}
+
+footer .logo-foot {
+    margin-bottom: 3vw;
+}
+
+footer .hr {
+    margin-top: 2.5vw;
+    width: 87.6vw;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+footer .logo-foot img:nth-child(1) {
+    width: 7%;
+    margin: auto 1vw -1vw auto;
+}
+
+footer .logo-foot img:nth-child(2) {
+    width: 17%;
+}
+
+footer .contact {
+    margin-right: -1vw;
+}
+
+footer .contact span:nth-child(2) {
+    margin-left: 2vw;
+}
