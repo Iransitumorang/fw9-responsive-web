@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+
+* {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+
+.right-slide {
+    background-image: url(../images/background-login.png);
+}
+
+.start-asc {
+    /* font-family: 'Nunito Sans';
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3A3D42;
+}
+
+.transfering {
+    /* font-family: 'Nunito Sans';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(58, 61, 66, 0.6);
+}
+
+.form-border {
+    background: unset;
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+.form-border2 {
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+/* .form-border2:focus {
+    border-color: gray;
+    box-shadow: unset;
+} */
+
+.password {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.invalid {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FF5B37;
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.signup {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.covering {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.dompetku {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.your-pin img{
+    background: #FFFFFF;
+    border: 1px solid #6379F4;
+    box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1vw;
+}
