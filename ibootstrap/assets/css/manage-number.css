@@ -27,7 +27,7 @@ section aside .left-slide,
 .dashboard,
 .transfer,
 .topup,
-.logout {
+.logout, .nav-hamburger {
     color: rgba(58, 61, 66, 0.8);
 }
 
@@ -35,6 +35,14 @@ section aside .left-slide,
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
+}
+
+.primary-parent {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
 }
 
 .you-can-only {
@@ -60,8 +68,8 @@ section aside .left-slide,
     color: #514F5B;
 }
 
-footer {
-    font-size: 16px;
+footer h3 {
+    font-size: 16px !important;
     line-height: 28px;
 }
 
@@ -73,4 +81,67 @@ footer {
 .contact-us {
     font-weight: 600;
     color: #EFEFEF;
+}
+
+@media (max-width: 886px) {
+    .responsive-nav a, .nav-logout a {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
+@media (max-width: 768px) { 
+    .primary-parent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+
+    .dashboard, .transfer, .topup, .logout {
+        font-size: 13px;
+    }
+    
+    .dashboard img, .transfer img, .topup img, .logout img {
+        width: 15%;
+        margin-right: 5px;
+    }
+
+    .profil img {
+        width: 80%;
+    }
+
+    footer .rsp-62, .contact-us, .all-reserved {
+        margin: 0!important;
+    }
+
+    footer {
+        padding: 2vw;
+    }
+ }
+
+@media (max-width: 576px) {
+
+    .primary-parent {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .number-phone {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 412px) {
+    .number-phone {
+        font-size: 12px;
+    }
+
+    .primary-parent {
+       display: block;
+       text-align: center;
+    }
 }

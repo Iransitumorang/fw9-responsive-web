@@ -54,8 +54,8 @@ section aside .left-slide,
     margin-top: 3vw;
 }
 
-footer {
-    font-size: 16px;
+footer h3 {
+    font-size: 16px !important;
     line-height: 28px;
 }
 
@@ -68,3 +68,35 @@ footer {
     font-weight: 600;
     color: #EFEFEF;
 }
+
+@media (max-width: 768px) { 
+    .primary-parent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+
+    .dashboard, .transfer, .topup, .logout {
+        font-size: 13px;
+    }
+    
+    .dashboard img, .transfer img, .topup img, .logout img {
+        width: 15%;
+        margin-right: 5px;
+    }
+
+    .profil img {
+        width: 80%;
+    }
+
+    footer .rsp-62, .contact-us, .all-reserved {
+        margin: 0!important;
+    }
+
+    footer {
+        padding: 2vw;
+    }
+ }

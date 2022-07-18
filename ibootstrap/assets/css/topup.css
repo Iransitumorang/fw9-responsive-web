@@ -24,9 +24,9 @@ section aside .left-slide,
     line-height: 31px;
 }
 
-.dashborad,
+.dashboard,
 .transfer,
-.logout {
+.logout, .nav-hamburger {
     color: rgba(58, 61, 66, 0.8);
 }
 
@@ -34,15 +34,14 @@ section aside .left-slide,
     color: #6379F4;
 }
 
-
 .how-to-topup {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
 }
 
-footer {
-    font-size: 16px;
+footer h3 {
+    font-size: 16px !important;
     line-height: 28px;
 }
 
@@ -55,3 +54,35 @@ footer {
     font-weight: 600;
     color: #EFEFEF;
 }
+
+@media (max-width: 768px) { 
+    .primary-parent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+
+    .dashboard, .transfer, .topup, .logout {
+        font-size: 13px;
+    }
+    
+    .dashboard img, .transfer img, .topup img, .logout img {
+        width: 15%;
+        margin-right: 5px;
+    }
+
+    .profil img {
+        width: 80%;
+    }
+
+    footer .rsp-62, .contact-us, .all-reserved {
+        margin: 0!important;
+    }
+
+    footer {
+        padding: 2vw;
+    }
+ }

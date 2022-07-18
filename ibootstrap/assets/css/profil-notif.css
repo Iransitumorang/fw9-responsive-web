@@ -26,7 +26,7 @@ section aside .left-slide,
 
 .transfer,
 .topup,
-.logout {
+.logout, .nav-hamburger {
     color: rgba(58, 61, 66, 0.8);
 }
 
@@ -75,9 +75,9 @@ section aside .left-slide,
 .notif {
     height: 42vw;
     position: relative;
-    bottom: 61vw;
+    bottom: 58vw;
     left: 59vw;
-    width: 37%;
+    width: 34%;
 }
 
 .today {
@@ -131,7 +131,7 @@ section aside .left-slide,
     height: 7vw;
 }
 
-footer {
+footer h3 {
     font-size: 16px;
     line-height: 28px;
 }
@@ -145,3 +145,35 @@ footer {
     font-weight: 600;
     color: #EFEFEF;
 }
+
+@media (max-width: 768px) { 
+    .primary-parent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+
+    .dashboard, .transfer, .topup, .logout {
+        font-size: 15px;
+    }
+    
+    .dashboard img, .transfer img, .topup img, .logout img {
+        width: 12%;
+        margin-right: 5px;
+    }
+
+    .profil img {
+        width: 80%;
+    }
+
+    footer .rsp-62, .contact-us, .all-reserved {
+        margin: 0!important;
+    }
+
+    footer {
+        padding: 2vw;
+    }
+ }
