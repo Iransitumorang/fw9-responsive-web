@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+
+* {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+
+section aside .left-slide,
+.right-slide {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.nav-menu {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.side-menu {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.transfer,
+.topup,
+.logout {
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.balance-parent {
+    border-radius: 20px;
+}
+
+.balance {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #E0E0E0;
+}
+
+.seratus20 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.number-phone {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #DFDCDC;
+}
+
+.topup-img {
+    height: 80%;
+}
+
+.trans-history {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.see-all {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6379F4;
+}
+
+.notif {
+    height: 42vw;
+    position: relative;
+    bottom: 61vw;
+    left: 59vw;
+    width: 37%;
+}
+
+.today {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #7A7886;
+}
+
+.profil-notif-img {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 29vw;
+    padding: 2vw;
+    height: 7vw;
+}
+
+.profil-notif-img2 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 29vw;
+    padding: 2vw;
+    margin: 1vw auto;
+    height: 7vw;
+}
+
+.this-week {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #7A7886;
+}
+
+.profil-notif-img3 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 29vw;
+    padding: 2vw;
+    margin: 1vw auto;
+    height: 7vw;
+}
+
+.profil-notif-img4 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 29vw;
+    padding: 2vw;
+    height: 7vw;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.all-reserved {
+    font-weight: 400;
+    color: rgba(239, 239, 239, 0.9);
+}
+
+.contact-us {
+    font-weight: 600;
+    color: #EFEFEF;
+}
