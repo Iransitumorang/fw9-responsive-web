@@ -5,6 +5,8 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 header {
@@ -28,33 +30,39 @@ header .menu .logo img:nth-child(2) {
     font-weight: 700;
 }
 
-.header-right button:nth-child(1) {
+.header-right .login button:nth-child(1) {
     margin-right: 15px;
-    margin-left: 20vw;
+    margin-left: 17vw;
     background-color: #FFFFFF;
     color: #6379F4;
     box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
-    border-radius: 7px;
-    padding: 5px;
-    width: 5vw;
+    border-radius: 12px;
+    padding: 9px;
+    width: 8vw;
     border: 2px solid #6379F4;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
 }
 
-.header-right button:nth-child(2) {
+.header-right .signup .btn-signup {
     background-color: #6379F4;
     color: #FFFFFF;
     box-shadow: 0px 6px 75px;
     border: 2px solid #FFFFFF;
-    border-radius: 7px;
+    border-radius: 12px;
     margin-top: 5vw;
-    padding: 5px;
-    width: 5vw;
-    height: 33px;
+    padding: 9px;
+    width: 8vw;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 
-/* main {
-    margin-top: 5vw;
+/* .header-right .signup {
+    margin-left: 28vw;
+    margin-top: -3.5vw;
 } */
 
 main .transaction-history {
@@ -332,4 +340,463 @@ footer .contact {
 
 footer .contact span:nth-child(2) {
     margin-left: 2vw;
+}
+
+
+@media (max-width: 1204px) {
+
+    .header-right .login button:nth-child(1) {
+        padding: 11px;
+        width: 12vw;
+        margin-left: 8vw;
+    }
+
+    .header-right .signup .btn-signup {
+        padding: 8px;
+        width: 12vw;
+        height: 55px;
+    }
+
+    .great-features {
+        margin-left: 0 !important;
+    }
+
+    .group-sponsor img {
+        width: 93%;
+        margin-left: 7vw;
+    }
+
+    .awesome,
+    .play-app-store {
+        margin-left: 0 !important;
+    }
+
+    main .thegreat .thegreat123 {
+        line-height: 3vw;
+        padding-top: 1vw;
+        width: 48vw;
+        height: 11vw;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .header-right {
+        width: 100%;
+    }
+
+    .header-right .login button:nth-child(1) {
+        padding: 11px;
+        width: 12vw;
+        margin-left: 18vw;
+    }
+
+    .header-right .signup .btn-signup {
+        padding: 8px;
+        width: 12vw;
+        height: 55px;
+    }
+
+    main .thegreat img {
+        margin-left: 2vw !important;
+    }
+
+    .thegreat123 {
+        line-height: 3vw !important;
+        padding-top: 1vw !important;
+        width: 42vw !important;
+        height: 10vw !important;
+    }
+}
+
+@media (max-width: 870px) {
+
+    main .transaction-history .awesome .saving {
+        font-size: 4vw;
+    }
+
+    .great-features {
+        margin-top: 15vw;
+    }
+
+    .zwallet-features {
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+}
+
+@media (max-width: 870px) {
+
+    br {
+        display: none;
+    }
+
+    .transaction-history {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thegreat {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .awesome {
+        text-align: center;
+    }
+
+    .try-it-free {
+        width: 25vw;
+    }
+
+    .support,
+    .data-privacy,
+    .easy-download {
+        height: 26vw !important;
+    }
+
+    .great-features {
+        text-align: center;
+    }
+
+    .zwallet-features {
+        font-size: 5vw;
+    }
+
+    .thegreat123 {
+        width: 75vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-right {
+        margin-top: -2vw;
+    }
+
+    .header-right .login button:nth-child(1) {
+        margin-left: 8vw;
+        width: 15vw;
+        line-height: 2vw;
+    }
+
+    .header-right .signup .btn-signup {
+        width: 15vw;
+        line-height: 2vw;
+        height: 6vw;
+    }
+
+    .about-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zwallet-features {
+        font-size: 5vw !important;
+        line-height: unset !important;
+    }
+
+    .thegreat img {
+        width: 100%;
+    }
+
+    .great-features {
+        margin-top: 15vw !important;
+    }
+
+    .thegreat123 {
+        line-height: 3vw !important;
+        padding-top: 1vw !important;
+        width: 90vw !important;
+        height: 8vw !important;
+        margin-right: 3vw;
+    }
+
+    .thegreat123 .text {
+        font-size: 15px !important;
+    }
+
+    .th-left img {
+        width: 50vw !important;
+    }
+
+    .transaction-history {
+        margin-left: 4vw !important;
+        padding-top: 10vw;
+    }
+
+    .try-it-free button {
+        width: 15vw !important;
+    }
+
+    .support,
+    .data-privacy,
+    .easy-download {
+        height: 25vw !important;
+        width: 35vw !important;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .easy-download {
+        margin-top: 5vw;
+    }
+}
+
+@media (max-width: 654px) {
+    .header-right {
+        margin-top: 0vw;
+        margin-left: -25vw;
+    }
+
+    .awesome h6 {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .try-it-free button {
+        width: 30vw !important;
+        height: 5vw !important;
+    }
+
+    .support,
+    .data-privacy,
+    .easy-download {
+        width: 35vw !important;
+        height: 32vw !important;
+    }
+
+}
+
+@media (max-width: 586px) {
+    .header-right {
+        margin-left: -40vw;
+    }
+
+    .header-right button:nth-child(1),
+    .signup .btn-signup {
+        font-size: 15px !important;
+        font-weight: 100 !important;
+
+    }
+}
+
+@media (max-width: 576px) {
+
+    .support,
+    .data-privacy,
+    .easy-download {
+        width: 40vw !important;
+        height: 40vw !important;
+    }
+
+    .btn-signup {
+        display: none;
+    }
+
+    .login button:nth-child(1) {
+        margin-top: 5vw;
+    }
+
+    .thegreat123 {
+        height: 10vw !important;
+    }
+
+    main .feedback .wuas {
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+}
+
+@media (max-width: 462px) {
+
+    .support,
+    .data-privacy,
+    .easy-download {
+        width: 55vw !important;
+        height: 46vw !important;
+    }
+
+    .thegreat123 {
+        height: 16vw !important;
+    }
+
+    .gf123 {
+        line-height: 6vw;
+    }
+}
+
+@media (max-width: 372px) {
+    .login {
+        margin-right: -2vw;
+    }
+
+    .logo img:nth-child(2) {
+        display: none;
+    }
+}
+
+.hamburger, .sidebar {
+    display: none;
+}
+
+@media (max-width: 372px) {
+    .transaction-history {
+        padding-top: 20vw;
+    }
+
+    .logo-hbg img {
+        width: 50% !important;
+    }
+
+    .try-it-free button {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 240px) {
+    .transaction-history {
+        padding-top: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        display: none;
+    }
+
+    .logo-hbg img {
+        width: 25%;
+    }
+
+    .hamburger {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding: 15px;
+        background: #687c92;
+        box-shadow: 0 0 10px gray;
+        position: fixed;
+        z-index: 9999;
+        display: flex;
+    }
+
+    .hamburger .logo-hbg {
+        font-size: 24px;
+        color: rgb(226, 33, 33);
+        text-decoration: none;
+    }
+
+    .hamburger .toggler-navbar {
+        margin-right: 15px;
+    }
+
+    .sidebar {
+        display: inline;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 300px;
+        height: 100%;
+        background: #4f5458;
+        text-align: left;
+        font-size: 20px;
+        transform: rotate3d(0, 1, 0, 90deg);
+        transform-origin: left center;
+        transition: .5s;
+    }
+
+    .sidebar.open {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    .sidebar ul {
+        list-style: none;
+    }
+
+    .sidebar li:hover,
+    .sidebar li.active {
+        background: #0000003f;
+    }
+
+    .sidebar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block
+    }
+
+    .hamburger-menu {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .hamburger-menu span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: white;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    .hamburger-menu span:nth-child(1) {
+        top: 2.5px;
+    }
+
+    .hamburger-menu span:nth-child(2) {
+        top: 11px;
+    }
+
+    .hamburger-menu span:nth-child(3) {
+        top: 21px;
+    }
+
+    .hamburger-menu.open span:nth-child(1) {
+        top: 15px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+
+    .hamburger-menu.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+
+    .hamburger-menu.open span:nth-child(3) {
+        top: 14px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+
 }

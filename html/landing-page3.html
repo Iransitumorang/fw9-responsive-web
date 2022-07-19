@@ -12,6 +12,27 @@
 
 <body>
     <header>
+        <!-- "hamburger" -->
+        <nav class="hamburger">
+            <a class="toggler-navbar">
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+            <a class="logo-hbg" href="">
+                <img src="../assets/img/dompetku2.png" alt="dompetku">
+            </a>
+        </nav>
+        <div class="sidebar">
+            <ul>
+                <li><a href="/ibootstrap/dashboard/login.html">Login</a></li>
+                <li><a href="/ibootstrap/dashboard/signup.html">Sign Up</a></li>
+            </ul>
+        </div>
+        <!-- SAMPAI DISINI HABURGER -->
+
         <div class="menu">
             <div class="logo">
                 <img src="../assets/img/dompetku.png" alt="logo dompetku">
@@ -19,18 +40,22 @@
             </div>
             <div class="awesome">
                 <span>Awesome App <br> For Saving Time.</span>
-                <h6>We bring you a mobile app for banking problems that <br> oftenly wasting much of your times.</h5>
+                <h6>We bring you a mobile app for banking problems that <br> oftenly wasting much of your times.
+                </h6>
                 <button>Try It Free</button>
             </div>
         </div>
         <div class="header-right">
-            <div>
-                <button>Login</button>
-                <button>Sign Up</button>
+            <div class="    hr1">
+                <a href="/ibootstrap/dashboard/login.html" class="login">
+                    <button>Login</button>
+                </a>
+                <a href="/ibootstrap/dashboard/signup.html" class="signup">
+                    <button class="btn-signup">Sign Up</button>
+                </a>
             </div>
             <img src="../assets/img/lp 4 balance.png" alt="balance" class="balance">
         </div>
-
     </header>
 
     <main>
@@ -112,9 +137,11 @@
                     </div>
                     <span>Alex Hansinburg</span>
                     <h5 class="designer">Designer</h5>
-                    <h5>“This is the most outstanding app that I’ve ever try in my live, this app is such an amazing masterpiece and <br> it’s suitable for you who is bussy with their bussiness and must transfer money to another person aut there.<br> Just try this app and see the power!”</h5>
+                    <h5>“This is the most outstanding app that I’ve ever try in my live, this app is such an amazing
+                        masterpiece and <br> it’s suitable for you who is bussy with their bussiness and must transfer
+                        money to another person aut there.<br> Just try this app and see the power!”</h5>
                 </div>
-                    <img src="../assets/img/arrow-right.png" alt="arrow-right" class="arrow">
+                <img src="../assets/img/arrow-right.png" alt="arrow-right" class="arrow">
             </div>
         </div>
     </main>
@@ -124,7 +151,7 @@
             <img src="../assets/img/dompetku.png" alt="logo dompetku">
             <img src="../assets/img/dompetku2.png" alt="logo dompetku">
         </div>
-            <span>Simplify financial needs and saving <br> much time in banking needs with <br> one single app.</span>
+        <span>Simplify financial needs and saving <br> much time in banking needs with <br> one single app.</span>
         <img src="../assets/img/hr-fe.png" class="hr">
         <div class="copyright">
             <div class="reserved">
@@ -136,6 +163,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.getElementsByClassName("toggler-navbar")[0].addEventListener("click", toogleClass);
+
+        function toogleClass() {
+            document.getElementsByClassName("hamburger-menu")[0].classList.toggle('open')
+            document.getElementsByClassName("sidebar")[0].classList.toggle('open')
+        }
+    </script>
 </body>
 
 </html>
