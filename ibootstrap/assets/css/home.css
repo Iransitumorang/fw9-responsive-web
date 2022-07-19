@@ -91,3 +91,9 @@ footer {
     font-weight: 600;
     color: #EFEFEF;
 }
+
+@media (max-width: 768px) {
+    .transfer {
+        width: 33% !important;
+    } 
+}

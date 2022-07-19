@@ -547,7 +547,10 @@ footer .contact span:nth-child(2) {
 }
 
 @media (max-width: 562px) {
-    .sherina, .jessica, .robert {
+
+    .sherina,
+    .jessica,
+    .robert {
         margin-bottom: 10vw !important;
     }
 
@@ -560,12 +563,47 @@ footer .contact span:nth-child(2) {
         width: 30vw !important;
     }
 
-    .support, .data-privacy, .easy-download {
+    .support,
+    .data-privacy,
+    .easy-download {
         height: 37vw !important;
     }
 }
 
+@media (max-width: 360px) {
+    .awesome {
+        margin-top: 25vw !important;
+    }
+
+    .try-it-free button {
+        width: 45vw !important;
+        height: 7vw !important;
+    }
+
+    .thegreat img {
+        width: 100%;
+    }
+
+    .thegreat123 {
+        height: 27vw !important;
+    }
+
+    .support, .data-privacy, .easy-download {
+        height: 55vw !important;
+    }
+
+    .sherina, .jessica, .robert {
+        height: 65vw !important;
+    }
+
+    .trans-hst-responsive {
+        width: 100% !important;
+    }
+}
+
+
 @media (max-width: 1000px) {
+
 
     .logo img,
     .header-right {

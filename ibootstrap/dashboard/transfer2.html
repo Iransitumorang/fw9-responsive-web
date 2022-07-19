@@ -24,8 +24,25 @@
 
     <section class="d-flex justify-content-between p-5">
         <nav class="col-4 d-flex me-4 p-5 right-slide">
-            <div style="font-weight: 400; font-size: 18px; line-height: 31px;" class="d-flex flex-column ">
+            <div class="d-flex flex-column sidebar-menu"> 
                 <nav class="nav flex-fill flex-column">
+                    <a class="nav-link dashboard mb-3" href="/ibootstrap/dashboard/home.html">
+                        <img src="../assets/images/home/grid-transfer.png" class=" me-3"> Dashboard</a>
+                    <a class="nav-link transfer mb-3" href="/ibootstrap/dashboard/transfer1.html">
+                        <img src="../assets/images/home/arrow-up-transfer.png" class=" me-3"> Transfer</a>
+                    <a class="nav-link topup" href="/ibootstrap/dashboard/topup.html">
+                        <img src="../assets/images/home/plus.png" class=" me-3"> Top Up</a>
+                    <a class="nav-link" href="/ibootstrap/dashboard/profile1.html">
+                        <img src="../assets/images/home/Group 40.png" class="mt-4"></a>
+                </nav>
+
+                <nav class="nav d-flex flex-end">
+                    <a class="nav-link logout" href="/ibootstrap/dashboard/home.html">
+                        <img src="../assets/images/home/log-out.png" class="me-3">
+                        Logout
+                    </a>
+                </nav>
+                <!-- <nav class="nav flex-fill flex-column">
                     <a class="nav-link dashboard" href="#">
                         <img src=" ../assets/images/home/grid-transfer.png" class=" me-3"> Dashboard
                     </a>
@@ -44,7 +61,7 @@
                     <a class="nav-link logout" href="#">
                         <img src="../assets/images/home/log-out.png" class="me-3"> Logout
                     </a>
-                </nav>
+                </nav> -->
             </div>
         </nav>
 
@@ -78,7 +95,9 @@
                             </div>
                         </div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a href="/ibootstrap/dashboard/status-success.html">
                             <button class="btn btn-primary px-4 me-3 mt-5 continue" type="button">Continue</button>
+                        </a>
                         </div>
                     </div>
                 </div>
