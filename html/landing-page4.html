@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="dompetku">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/landing-page4.css">
     <link rel="shortcut icon" href="../assets/img/dompetku.png">
@@ -11,6 +12,26 @@
 </head>
 
 <body>
+      <!-- "hamburger" -->
+      <nav class="hamburger">
+        <a class="toggler-navbar">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        <a class="logo-hbg" href="/ibootstrap/dashboard/home.html">
+            <img src="../assets/img/dompetku2.png" alt="dompetku">
+        </a>
+    </nav>
+    <div class="sidebar">
+        <ul>
+            <li><a href="/ibootstrap/dashboard/login.html">Login</a></li>
+            <li><a href="/ibootstrap/dashboard/signup.html">Sign Up</a></li>
+        </ul>
+    </div>
+    <!-- SAMPAI DISINI -->
     <header>
         <div class="header">
             <div class="menu">
@@ -148,6 +169,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.getElementsByClassName("toggler-navbar")[0].addEventListener("click", toogleClass);
+
+        function toogleClass() {
+            document.getElementsByClassName("hamburger-menu")[0].classList.toggle('open')
+            document.getElementsByClassName("sidebar")[0].classList.toggle('open')
+        }
+    </script>
 </body>
 
 </html>
