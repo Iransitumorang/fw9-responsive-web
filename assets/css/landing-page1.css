@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans';
 }
 
 header {
@@ -126,6 +127,7 @@ main .about-top {
 
 main .about-top span {
     font-size: 60px;
+    font-family: 'Nunito Sans';
 }
 
 main .about-top .about-the {
@@ -156,12 +158,33 @@ main .about-desc .support,
     border-radius: 25px;
     background: #FFFFFF;
     width: 28%;
-    height: 20vw;
+    height: 18vw;
+    padding: 2vw;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+main .support img, .data-privacy img, .easy-download img {
+    width: 11%;
+    background: rgba(71, 58, 209, 0.1);
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+    border-radius: 25px;
+    padding: 8px;
+    border: 2px solid #6379F4;
+}
+
+main .icons8 {
+    margin-bottom: 15px;
+}
+
+main .support h6, .data-privacy h6, .easy-download h6 {
+    font-size: 18px;
 }
 
 main .about-desc span {
     text-align: center;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 main .about-desc h6 {
@@ -228,7 +251,7 @@ main .thegreat .thegreat123 {
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
-    line-height: 53px;
+    padding-top: 2vw;
     width: 50vw;
     height: 8vw;
     padding-left: 3vw;
@@ -239,6 +262,7 @@ main .thegreat .thegreat123 {
 main .thegreat123 .gf123 {
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 main .great-features .no-great {
@@ -273,6 +297,7 @@ main .feedback-users {
 
 main .feedback-users img {
     padding: 2vw;
+    padding-top: 3vw;
 }
 
 main .feedback h5 {
