@@ -50,8 +50,14 @@ section aside .left-slide,
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    height: 4vw;
-    margin-top: 3vw;
+    height: 53px;
+    margin-top: 39px;
+}
+
+.downloadpdf {
+    margin: -2vw;
+    margin-right: -4vw;
+    margin-left: -8vw;
 }
 
 footer h3 {
@@ -70,7 +76,9 @@ footer h3 {
 }
 
 @media (max-width: 886px) {
-    .responsive-nav a, .nav-logout a {
+
+    .responsive-nav a,
+    .nav-logout a {
         padding-left: unset;
         padding-right: unset;
     }

@@ -26,7 +26,6 @@ section aside .left-slide,
 
 .side-menu-nonaktif {
     color: rgba(58, 61, 66, 0.8);
-    ;
 }
 
 .trans-history {
@@ -49,7 +48,7 @@ section aside .left-slide,
     color: #7A7886;
 }
 
-footer {
+footer h3 {
     font-size: 16px;
     line-height: 28px;
 }

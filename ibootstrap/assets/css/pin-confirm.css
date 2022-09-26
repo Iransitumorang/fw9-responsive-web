@@ -82,13 +82,27 @@ section aside .left-slide,
     border: 1px solid gray;
 }
 
+.modal-value input {
+    height: 70%;
+    width: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    border: unset;
+    border-bottom: 1px solid gray;
+}
+
+.modal-footer {
+    border: unset!important;
+}
+
 .btn-continue {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
 }
 
-footer {
+footer h3 {
     font-size: 16px;
     line-height: 28px;
 }
@@ -107,7 +121,7 @@ footer {
 
 @media only screen and (max-width: 420px) {
     article {
-        margin-top: 25vw!important;
+        margin-top: 25vw !important;
     }
 
 }

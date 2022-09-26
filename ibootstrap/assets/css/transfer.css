@@ -86,7 +86,7 @@ section .dashboard,
     line-height: 25px;
 }
 
-footer {
+footer h3 {
     font-size: 16px;
     line-height: 28px;
 }
